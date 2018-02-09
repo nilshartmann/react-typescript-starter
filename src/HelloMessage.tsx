@@ -13,6 +13,7 @@ export default class HelloMessage extends React.Component<HelloMessageProps, Hel
 
   constructor(props: HelloMessageProps) {
     super(props);
+    this.input = null;
     this.state = { greeting: this.props.greeting || "" };
   }
 

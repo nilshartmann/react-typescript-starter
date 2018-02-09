@@ -8,7 +8,12 @@
     "url": "https://nilshartmann.net"
   },
   "description": "React TypeScript Starter",
-  "keywords": ["react", "javascript", "typescript", "starter-kit"],
+  "keywords": [
+    "react",
+    "javascript",
+    "typescript",
+    "starter-kit"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nilshartmann/react-typescript-starter.git"
@@ -19,24 +24,24 @@
     "dist": "webpack",
     "webpack": "webpack --watch",
     "devserver": "webpack-dev-server --content-base public/",
-    "prettier": "prettier --print-width 130 --write \"{src}/**/*.{js,jsx,ts,tsx}\""
+    "prettier": "prettier --write \"{src}/**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
     "@types/webpack-env": "1.13.2",
     "awesome-typescript-loader": "3.2.3",
-    "prettier": "1.7.4",
+    "prettier": "^1.10.2",
     "react-hot-loader": "3.0.0-beta.7",
     "rimraf": "2.6.2",
     "source-map-loader": "0.2.3",
     "tslint": "5.8.0",
-    "typescript": "2.5.3",
+    "typescript": "^2.7.0-rc",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.3"
   },
   "dependencies": {
-    "@types/react": "16.0.18",
-    "@types/react-dom": "16.0.2",
-    "react": "16.0.0",
-    "react-dom": "16.0.0"
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
